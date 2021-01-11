@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <style>
+        .h1 {
+            text-align: center;
+            font-size: 35px;
+            color: black;
+        }
+        .h2 {
+            text-align:center;
+            font-size:15px;
+            font-family:monospace;
+            font-weight:lighter;
+            color: #CB05F5;
+        }
+       
+        .center {
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+             width:38%;
+             font-size: 20px;
+             margin-bottom: 4px;
+        }
+        .label {
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+             width:38%;
+             font-size: 15px;
+        }
+        #button {
+            color: cornflowerblue;
+        }
+        #font-size {
+           font-size: 13px;
+        }
+        .div {
+         background-color: coral;
+         display: block;
+         display: block;
+         
+         margin-top: 50px;
+         margin-right: 280px;
+         margin-bottom: 150px;
+         margin-left: 280px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="div">
+
+       
+         <h1 class="h1">
+            FreeCodeCamp Survey Form
+         </h1>
+         <h2 class="h2">
+            Thank you for taking the time to help us improve the platform
+         </h2>
+         
+         <p class="center">
+            Name
+        </p> 
+        
+            <div >
+              <input class="center" id="font-size" type="text" placeholder="Enter your Name" required>  
+            </div>
+         
+         <p class="center">
+             Email
+         </p>
+         <div>
+
+            <input class="center" id="font-size" type="text" placeholder="Enter your Email" required>
+         </div>
+         
+         <div >
+          <p class="center">Age(optional)
+          </p>
+          <input
+          type="number"
+          name="age"
+          id="font-size"
+          min="10"
+          max="99"
+          class="center"
+          
+          placeholder="Age"
+        />
+        </div>
+        
+        <div >
+            <p class="center">Which option best describes your current role?</p>
+            <select class="center"  id="font-size" type="text" placeholder="select current role" required>
+            <option disabled selected value>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNo">Prefer not to say</option>
+                <option value="other">Other</option>
+              </select>
+        </div>
+        <div>
+            <p class="center">Would you recommend freeCodeCamp to a friend?</p>
+            <label for="Definitely" class="label">
+				<input id="Definitely" type="radio" name="indoor-outdoor" value="Definitely" checked> Definitely
+            </label>
+            <label for="Maybe" class="label">
+				<input id="Maybe" type="radio" name="indoor-outdoor" value="Maybe" checked> Maybe
+            </label>
+            <label for="Not sure" class="label">
+				<input id="Not sure" type="radio" name="indoor-outdoor" value="Not sure" checked> Not sure
+			</label>
+        </div>
+        <div>
+            <p class="center">
+                What is your favorite feature of freeCodeCamp?
+
+            </p>
+            <select id="font-size" name="mostLike" class="center" required>
+                <option disabled selected value>Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="openSource">Open Source</option>
+              </select>
+        </div>
+        <div>
+            <p class="center">
+                What would you like to see improved? (Check all that apply)
+            </p>
+            <label for="Front-end Projects" class="label">
+				<input id="Front-end Projects" type="checkbox" name="Imrovement" value="Front-end Projects"> Front-end Projects
+            </label>
+            <label for="Back-end Projects" class="label">
+				<input id="Back-end Projects" type="checkbox" name="Imrovement" value="Back-end Projects"> Back-end Projects
+            </label>
+            <label for="Data Visualization" class="label">
+				<input id="Data Visualization" type="checkbox" name="Imrovement" value="Data Visualization"> Data Visualization
+            </label>
+            <label for="Challenges" class="label">
+				<input id="Challenges" type="checkbox" name="Imrovement" value="Challenges"> Challenges
+            </label>
+            <label for="Open Source Community" class="label">
+				<input id="Open Source Community" type="checkbox" name="Imrovement" value="Open Source Community"> Open Source Community
+            </label>
+            <label for="Gitter help rooms" class="label">
+				<input id="Gitter help rooms" type="checkbox" name="Imrovement" value="Gitter help rooms"> Gitter help rooms
+            </label>
+            <label for="Videos" class="label">
+				<input id="Videos" type="checkbox" name="Imrovement" value="Videos" > Videos
+            </label>
+            <label for="City Meetups" class="label">
+				<input id="City Meetups" type="checkbox" name="Imrovement" value="City Meetups"> City Meetups
+            </label>
+            <label for="Wiki" class="label">
+				<input id="Wiki" type="checkbox" name="Imrovement" value="Wiki"> Wiki
+            </label>
+            <label for="Forum" class="label">
+				<input id="Forum" type="checkbox" name="Imrovement" value="Forum"> Forum
+            </label>
+            <label for="Additional Courses" class="label">
+				<input id="Additional Courses" type="checkbox" name="Imrovement" value="Additional Courses"> Additional Courses
+            </label>
+            <div>
+                <p class="center">
+                    Any comments or suggestions?
+                </p>
+                <textarea id="font-size"
+                 class="center"
+                  name="comment" 
+                  placeholder="Enter your comment here..."></textarea>
+            </div>
+            <button type="submit" class="center" id="button" >Submit</button>
+         
+        </div>
+
+
+        
+       
+           
+       
+
+        
+           
+          
+        
+
+		
+       </div>
+    </body>
+</html>
+
+   
